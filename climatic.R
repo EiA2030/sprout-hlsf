@@ -14,7 +14,7 @@ tsp <- terra::rast()
 tst <- terra::rast()
 omp <- terra::rast()
 omt <- terra::rast()
-for (month in sprintf("%02d", 1:12)) {
+for (month in sprintf("%02d", 4:9)) {
   mp <- terra::rast()
   mt <- terra::rast()
   for (year in years) {
