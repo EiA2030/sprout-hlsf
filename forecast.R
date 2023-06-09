@@ -107,4 +107,4 @@ for (v in c("rain", "tmax")) {
   }
 }
 oout <- out[complete.cases(out),c(1,2,3,grep(paste0("text", "_"), colnames(out)))]
-write.table(oout, "~/TRANSFORM/eia2030/UseCases/Sprout/forecast_2023_seas_Sprout.csv", row.names = FALSE, sep = ",")
+write.table(oout, "data/output/forecast_2023_seas_Sprout.csv", row.names = FALSE, sep = ",")
